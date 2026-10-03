@@ -13,7 +13,6 @@ Build scripts for Modal deployment and local testing.
 # CPU-only pytorch
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 # Install sam2 submodule
-git submodule init
 git submodule update --init --recursive --depth 1 --progress
 pip install -e third_party/sam2
 # Install other dependencies
